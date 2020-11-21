@@ -14,5 +14,25 @@ int fib(int n){
 }
 
 int main(){
+    // stack
+    stack<int> s;
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    cout << s.top() << endl;
+    s.pop();
+    s.pop();
+    cout << s.top() << endl;
+
+    // queue
+    queue<int> q;
+    q.push(1);
+    q.push(2);
+    q.push(3);
+    cout << q.front() << endl;
+    q.pop();
+    q.pop();
+    cout << q.front() << endl;
+
     return 0;
 }
