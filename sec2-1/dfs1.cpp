@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+bool dfs(int i){
+}
+
 int main(){
     int n;
     cin >> n;
